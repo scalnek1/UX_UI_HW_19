@@ -1,0 +1,57 @@
+/* ...Previous CSS code... */
+
+/* My UX Skills section */
+.mySkills {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mySkills h1 {
+    margin-bottom: 30px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+}
+
+.skill img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* My Work section */
+.myWork {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.myWork h1 {
+    margin-bottom: 30px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.project img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ...Rest of the CSS code... */
